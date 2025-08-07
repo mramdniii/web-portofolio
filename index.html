@@ -9,6 +9,13 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <script>
+  // Cek jika ini bukan halaman utama
+  if (performance.navigation.type === 1) {
+    // Redirect ke halaman utama
+    window.location.href = "index.html";
+  }
+</script>
   </head>
   <body class="bg-white text-gray-800 font-sans">
     <!-- Hero Section -->
